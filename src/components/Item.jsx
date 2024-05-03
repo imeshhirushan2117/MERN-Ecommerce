@@ -13,6 +13,7 @@ const Item = ({ id, name, image, old_price, new_price }) => {
           <FaSearch className="scale-125 hover:rotate-90  transition-all duration-200" />{" "}
         </Link>
         <img
+        onClick={window.scrollTo(0, 0)}
           src={image}
           alt="productImage"
           className="w-full block object-cover group-hover:scale-110 transition-all duration-1000"
