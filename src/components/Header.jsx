@@ -38,7 +38,7 @@ const {getTotalCartItems} = useContext(ShopContext);
           }`}
         />
 
-        <div className="flexBetween sm:gap-x-6 bold-16">
+        <div className="flexBetween sm:gap-x-2 bold-16">
           {!menuOpened ? (
             <MdMenu
               className="md:hidden cursor-pointer hover:text-secondary mr-2 p-1 ring-1 ring-slate-900/30 h-8 w-8 rounded-full"
